@@ -1,0 +1,21 @@
+module.exports = {
+ op(a, b) {
+    if (resp = 'soma') {
+      console.log(`O resultado de n1 + n2 é = ${a + b}`);
+    } else {
+      if (resp = 'multiplicação') {
+        console.log(`O resultado de n1 * n2 é = ${a * b}`);
+      } else {
+        if (resp = 'subtração') {
+          console.log(`O resultado de n1 - n2 é = ${a - b}`);
+        } else {
+          if (resp = 'divisão') {
+            console.log(`O resultado de n1 / n2 é = ${a / b}`);
+          } else {
+            console.log("a operação solicitada não está disponível!");
+          }
+        }
+      }
+    }
+  }
+};
